@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url('./Best_Mac_to_do_list_apps.jpg') no-repeat;
+    background-size: cover;
+}
+body button{
+    padding: 10px 20px;
+    outline: none;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #fff;
+}
+body input{
+    padding: 10px 20px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid red;
+    color: #fff;
+    transition: .3s;
+}
+input::placeholder{
+    color: #fff;
+}
+.big{
+    width: 450px;
+}
+#btn, .newBtn1{
+    border: 1px solid yellowgreen;
+    transition: .3s;
+}
+#clear, .newBtn2{
+    transition: .3s;
+    border: 1px solid red;
+}
+#btn:hover, .newBtn1:hover{
+    background-color: yellowgreen;
+    box-shadow: 0 0 10px 5px yellowgreen;
+}
+#clear:hover, .newBtn2:hover{
+    background-color: red;
+    box-shadow: 0 0 10px 5px red;
+}
+.main, .newBoxDiv{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.634);
+    border-radius: 20px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 0 0 10px 5px red;
+}
+.newDiv{
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+input:hover{
+    box-shadow: 0 0 10px 5px #fff;
+    border: 1px solid #fff;
+}
